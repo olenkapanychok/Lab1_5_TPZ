@@ -6,7 +6,7 @@ from main import (add_elements, subtract, multiply, divide, integer_division,
 class TestFunctions(unittest.TestCase):
 
     def test_add_elements(self):
-        self.assertEqual(add_elements([1, 2, 3]), 6)
+        self.assertEqual(add_elements([1, 2, 3]), 5)
 
     def test_subtract(self):
         self.assertEqual(subtract(10, 5), 5)
